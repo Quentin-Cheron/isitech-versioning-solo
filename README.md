@@ -4,7 +4,7 @@
 
 **Utilisation de diverse outils**
 
-1. Renommage des branches en commençant par les nommée feature_
+1. Renommage des branches en commençant par les nommée feature\_
 
 **Utilisation des branches**
 
@@ -17,28 +17,29 @@
 
 ## Projet Solo
 
-## VsCode
+## TP 1: Introduction et Bases de Git
 
 ### Création du repository :
 
 ![Alt text](img/CreateForkVsCode.png)
 
-### Clone du repository : 
+### Clone du repository :
 
 ```sh
 https://github.com/Quentin-Cheron/vscode.git
 ```
+
 ### Récupération et analyse des commits:
 
 ![Alt text](img/getLogVsCode.png)
 
 On peut voir dans la list des commits effectué qu'il y a beaucoup de commit de type **fix**
 
-### Création d'une nouvelle branche : 
+### Création d'une nouvelle branche :
 
 ![Alt text](img/CreateNewBranchVsCode.png)
 
-### Modification du Readme : 
+### Modification du Readme :
 
 ![Alt text](img/UpdateReadmeVsCode.png)
 
@@ -46,13 +47,13 @@ On peut voir dans la list des commits effectué qu'il y a beaucoup de commit de 
 
 ![Alt text](img/CommitVsCode.png)
 
-## Ruby on Rails
+## TP 2: Bonnes Pratiques de Codage
 
 ### Création du repository :
 
 ![Alt text](img/CreateForkRubyOnRails.png)
 
-### Clone du repository : 
+### Clone du repository :
 
 ```sh
 https://github.com/Quentin-Cheron/rails.git
@@ -66,7 +67,56 @@ On peut voir que les messages sont organisé avec le type du commit, les commits
 
 ### Bonne pratique dans le code source :
 
-Dans le code source on peut voir que :
-    -  les fichiers, dossiers sont bien organisé et rangé,
-    -  il y a des tests unitaire
-    - plusieurs fichiers de documentations
+Dans le code source on peut voir que : - les fichiers, dossiers sont bien organisé et rangé, - il y a des tests unitaire - plusieurs fichiers de documentations
+
+## TP 3: Utilisation Avancée de Git
+
+### Création du repository :
+
+![Alt text](img/CreateForkReact.png)
+
+### Clone du repository :
+
+```sh
+https://github.com/Quentin-Cheron/react.git
+```
+
+### Création de 2 nouvelles branches :
+
+![Alt text](img/CreateNewBranchReact.png)
+
+### Ajout des fonctionnalité :
+
+Branche feature_menu_header : ![Alt text](img/Feature1React.png)
+
+Branche feature_header : ![Alt text](img/Feature2React.png)
+
+### Création d'une fusion (merge) :
+
+![Alt text](img/CreateMergeReact.png)
+
+### Création d'un fichier pour le conflit :
+
+![Alt text](img/CreateFileForConflict.png)
+
+### Premier commit pour la création du conflit :
+
+![Alt text](img/FirstCommitForConflict.png)
+
+### Second commit pour la création du conflit :
+
+![Alt text](img/SecondCommitForConflict.png)
+
+### Création du conflit :
+
+![Alt text](img/CreateConflictMessage.png)
+
+### Affichage du conflit :
+
+![Alt text](img/ConflictReact.png)
+
+### Résolution du conflit :
+
+![Alt text](img/ResolveConflict.png)
+![Alt text](img/Resolve2Conflict.png)
+
