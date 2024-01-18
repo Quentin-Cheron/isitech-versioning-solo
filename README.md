@@ -46,3 +46,27 @@ On peut voir dans la list des commits effectué qu'il y a beaucoup de commit de 
 
 ![Alt text](img/CommitVsCode.png)
 
+## Ruby on Rails
+
+### Création du repository :
+
+![Alt text](img/CreateForkRubyOnRails.png)
+
+### Clone du repository : 
+
+```sh
+https://github.com/Quentin-Cheron/rails.git
+```
+
+### Récupération et analyse des commits:
+
+![Alt text](img/getLogRubyOnRails.png)
+
+On peut voir que les messages sont organisé avec le type du commit, les commits en anglais et compréhensible par tous
+
+### Bonne pratique dans le code source :
+
+Dans le code source on peut voir que :
+    -  les fichiers, dossiers sont bien organisé et rangé,
+    -  il y a des tests unitaire
+    - plusieurs fichiers de documentations
