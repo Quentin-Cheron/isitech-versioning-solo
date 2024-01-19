@@ -120,3 +120,37 @@ Branche feature_header : ![Alt text](img/Feature2React.png)
 ![Alt text](img/ResolveConflict.png)
 ![Alt text](img/Resolve2Conflict.png)
 
+## TP 4: Revue de Code et Collaboration
+
+### Création du repository :
+
+![Alt text](img/CreateForkTensorFlow.png)
+
+### Clone du repository :
+
+```sh
+https://github.com/Quentin-Cheron/tensorflow.git
+```
+
+### Analyse des pull requests :
+
+#### Les pull request sont :
+
+    - refusé si :
+        - Si il s'agit d'un spam pr,
+        - si ce n'est pas important comme une correction orthographique par exemple
+
+Il faut signer un contrat de licence de contributeur (CLA). pour que la pull request soit examiné
+
+### Création d'une pull request fictive
+
+#### Création d'une nouvelle branche avec un fichier txt
+
+#### Création d'une pull request
+
+![Alt text](img/PullRequest1.png)
+
+### Revue de code
+
+![Alt text](img/PullRequest2.png)
+
